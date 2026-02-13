@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="w-screen">
-        <div className=" border-red-500 bg-[url('/Forest.png')] bg-cover bg-center w-full h-screen flex flex-col items-center justify-center bg-fixed">
+        <div className=" border-red-500 bg-[url('/Forest.png')] bg-cover bg-center w-full h-screen flex flex-col items-center justify-center md:bg-fixed">
             <img src="/MarmoLogo.png" className="w-[80vw] max-w-125 logo-shake"></img>
             <a href="https://www.meta.com/en-gb/experiences/marmo/24881288181514277/" className="mt-10 bg-gray-800/30 text-md md:text-2xl px-8 py-3 border-(--yellow) border-2 text-(--yellow) hover:bg-(--yellow) hover:text-(--blue) duration-200 cursor-pointer">PLAY FREE</a>
             <a href="#about-section" className="mt-5 text-md md:text-xl text-(--yellow) hover:underline cursor-pointer">LEARN MORE</a>
