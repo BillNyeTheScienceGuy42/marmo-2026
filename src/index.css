@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+    --yellow: #fffad2;
+    --blue: rgb(24, 34, 52);
+    --bluetrans: rgba(24, 34, 52, 0.682);
+}
+
+html, body {
+    font-family: main;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: var(--blue);
+}
+
+@font-face {
+    font-family: main;
+    src: url(./assets/font.ttf);
+}
+
+.logo-shake {
+    animation: logo-shake 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes logo-shake {
+    from {
+        transform: rotate(-0.5deg);
+    }
+    to {
+        transform: rotate(0.5deg);  
+    }
+}
