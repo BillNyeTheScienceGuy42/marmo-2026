@@ -1,12 +1,12 @@
 export default function Home() {
   return (
     <div className="w-screen">
-        <div className=" border-red-500 bg-[url('/Forest.png')] bg-cover bg-center w-full h-screen flex flex-col items-center justify-center md:bg-fixed">
+        <div className=" border-red-500 bg-[url('/Forest.jpg')] bg-cover bg-center w-full h-screen flex flex-col items-center justify-center bg-fixed">
             <img src="/MarmoLogo.png" className="w-[80vw] max-w-125 logo-shake"></img>
             <a href="https://www.meta.com/en-gb/experiences/marmo/24881288181514277/" className="mt-10 bg-gray-800/30 text-md md:text-2xl px-8 py-3 border-(--yellow) border-2 text-(--yellow) hover:bg-(--yellow) hover:text-(--blue) duration-200 cursor-pointer">PLAY FREE</a>
             <a href="#about-section" className="mt-5 text-md md:text-xl text-(--yellow) hover:underline cursor-pointer">LEARN MORE</a>
         </div>
-        <div id="about-section" className=" border-red-500 w-screen flex flex-col items-centre bg-(--blue) text-(--yellow)">
+        <div id="about-section" className=" border-red-500 w-screen flex flex-col items-centre bg-(--blue) text-(--yellow) relative" style={{willChange: 'transform', backfaceVisibility: 'hidden'}}>
             <h1 className="mt-20 text-3xl md:text-4xl text-center">
                 ABOUT MARMO
             </h1>
@@ -20,7 +20,7 @@ export default function Home() {
                 <div className="w-75 h-90 mt-10 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
                     
                     <div className="absolute inset-0 bg-cover bg-center">
-                        <img src="/forest2.png" className="w-full h-full object-cover scale-110 blur-[3px] hover:blur-[2px] brightness-75 transition duration-200 cursor-pointer"></img>
+                        <img src="/forest2.jpg" className="w-full h-full object-cover scale-110 blur-[3px] brightness-75 cursor-pointer"></img>
                     </div>
                     <h2 className="underline text-2xl md:text-3xl text-center relative z-10">
                         FOREST
@@ -34,7 +34,7 @@ export default function Home() {
                 <div className="w-75 h-90 mt-10 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
                     
                     <div className="absolute inset-0 bg-cover bg-center">
-                        <img src="/pvp.png" className="w-full h-full object-cover scale-110 blur-[3px] brightness-75 hover:blur-[2px] transition duration-200 cursor-pointer"></img>
+                        <img src="/pvp.jpg" className="w-full h-full object-cover scale-110 blur-[3px] brightness-75 cursor-pointer"></img>
                     </div>
 
                     <h2 className="underline text-2xl md:text-3xl text-center relative z-10">
@@ -48,7 +48,7 @@ export default function Home() {
                 <div className="w-75 h-90 mt-10 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
                     
                     <div className="absolute inset-0 bg-cover bg-center">
-                        <img src="/shop.png" className="w-full h-full object-cover scale-110 blur-[3px] brightness-75 hover:blur-[2px] transition duration-200 cursor-pointer"></img>
+                        <img src="/shop.jpg" className="w-full h-full object-cover scale-110 blur-[3px] brightness-75 cursor-pointer"></img>
                     </div>
 
                     <h2 className="underline text-2xl md:text-3xl text-center relative z-10">
@@ -62,7 +62,7 @@ export default function Home() {
                 <div className="w-75 h-90 mt-10  rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
                     
                     <div className="absolute inset-0 bg-cover bg-center">
-                        <img src="/horror.png" className="object-center  w-full h-full object-cover  brightness-75 transition duration-200 cursor-pointer"></img>
+                        <img src="/horror.jpg" className="object-center  w-full h-full object-cover  brightness-75 cursor-pointer"></img>
                     </div>
 
                     <h2 className="underline text-2xl md:text-3xl text-center relative z-10">

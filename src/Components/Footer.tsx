@@ -14,17 +14,17 @@ export default function Footer(){
                     <div className="w-px h-30 bg-gray-600"></div>
                     
                     <div className="flex-1 flex flex-col justify-center gap-4 md:gap-6 text-sm md:text-base text-center">
-                        <a href="/" className="hover:text-gray-300 transition">HOME</a>
-                        <a href="/privacy" className="hover:text-gray-300 transition">PRIVACY POLICY</a>
-                        {/* <a href="#" className="hover:text-gray-300 transition">PRESS KIT</a> */}
+                        <a href="/" className="hover:text-gray-300 transition-colors">HOME</a>
+                        <a href="/privacy" className="hover:text-gray-300 transition-colors">PRIVACY POLICY</a>
+                        {/* <a href="#" className="hover:text-gray-300 transition-colors">PRESS KIT</a> */}
                     </div>
                     
                     <div className="w-px h-30 bg-gray-600"></div>
                     
                     <div className="flex-1 flex flex-col justify-center gap-4 md:gap-6 text-sm md:text-base text-center">
-                        <a href="https://www.tiktok.com/@marmovr" className="hover:text-gray-300 transition">TIKTOK</a>
-                        <a href="https://www.youtube.com/@marmovr" className="hover:text-gray-300 transition">YOUTUBE</a>
-                        <a href="https://discord.gg/marmo" className="hover:text-gray-300 transition">DISCORD</a>
+                        <a href="https://www.tiktok.com/@marmovr" className="hover:text-gray-300 transition-colors">TIKTOK</a>
+                        <a href="https://www.youtube.com/@marmovr" className="hover:text-gray-300 transition-colors">YOUTUBE</a>
+                        <a href="https://discord.gg/marmo" className="hover:text-gray-300 transition-colors">DISCORD</a>
                     </div>
                     <div className="w-px h-30 bg-gray-600"></div>
 

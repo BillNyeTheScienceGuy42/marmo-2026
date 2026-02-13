@@ -3,7 +3,7 @@
 :root {
     --yellow: #fffad2;
     --blue: rgb(24, 34, 52);
-    --bluetrans: rgba(24, 34, 52, 0.682);
+    --bluetrans: rgba(24, 34, 52, 0.85);
 }
 
 html, body {
