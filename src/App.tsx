@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import Privacy from './Pages/Privacy'
 import Discord from './Pages/Discord'
 import Download from './Pages/Download'
+import NotFound from './Pages/NotFound'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/discord" element={<Discord />} />
           <Route path="/download" element={<Download />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
       <Footer />
