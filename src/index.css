@@ -12,6 +12,13 @@ html, body {
     padding: 0;
     scroll-behavior: smooth;
     background-color: var(--blue);
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
 }
 
 @font-face {
