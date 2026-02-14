@@ -16,10 +16,10 @@ export default function Home() {
             <h1 className="mt-20 text-3xl md:text-4xl text-center">
                 AROUND THE GAME
             </h1>
-            <div className="md:w-[80vw] md:block md:mx-auto">
+            <div className="md:w-[80vw] md:block md:mx-auto px-4">
 
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-0 mt-10 place-items-center mb-20">
-                    <div className="w-75 h-90 mt-10 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-3 lg:gap-2 mt-10 mb-20">
+                    <div className="w-full max-w-75 h-90 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
                         
                         <div className="absolute inset-0 bg-cover bg-center">
                             <img src="/forest2.jpg" className="w-full h-full object-cover scale-110 blur-[3px] brightness-75 cursor-pointer"></img>
@@ -33,7 +33,7 @@ export default function Home() {
                         </p>
 
                     </div>
-                    <div className="w-75 h-90 mt-10 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
+                    <div className="w-full max-w-75 h-90 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
                         
                         <div className="absolute inset-0 bg-cover bg-center">
                             <img src="/pvp.jpg" className="w-full h-full object-cover scale-110 blur-[3px] brightness-75 cursor-pointer"></img>
@@ -47,7 +47,7 @@ export default function Home() {
                             Fight against others in the PVP arena, with changing maps, and a variety of weapons
                         </p>
                     </div>
-                    <div className="w-75 h-90 mt-10 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
+                    <div className="w-full max-w-75 h-90 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
                         
                         <div className="absolute inset-0 bg-cover bg-center">
                             <img src="/shop.jpg" className="w-full h-full object-cover scale-110 blur-[3px] brightness-75 cursor-pointer"></img>
@@ -61,7 +61,7 @@ export default function Home() {
                             Browse the store for styling cosmetics, and limited time bundles!
                         </p>
                     </div>
-                    <div className="w-75 h-90 mt-10  rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
+                    <div className="w-full max-w-75 h-90 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
                         
                         <div className="absolute inset-0 bg-cover bg-center">
                             <img src="/horror.jpg" className="object-center  w-full h-full object-cover  brightness-75 cursor-pointer"></img>
