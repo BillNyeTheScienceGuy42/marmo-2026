@@ -16,9 +16,9 @@ export default function Home() {
             <h1 className="mt-20 text-3xl md:text-4xl text-center">
                 AROUND THE GAME
             </h1>
-            <div className="md:w-[80vw] md:block md:mx-auto px-4">
+            <div className="w-full md:w-[80vw] mx-auto px-4">
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-3 lg:gap-2 mt-10 mb-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-3 lg:gap-2 mt-10 mb-20 justify-items-center">
                     <div className="w-full max-w-75 h-90 rounded-[20px] overflow-hidden relative flex flex-col justify-center items-center">
                         
                         <div className="absolute inset-0 bg-cover bg-center">
