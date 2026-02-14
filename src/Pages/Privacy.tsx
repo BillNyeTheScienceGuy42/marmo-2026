@@ -1,6 +1,6 @@
 export default function Privacy(){
     return(
-        <div className="w-full bg-[var(--blue)] text-[var(--yellow)] py-20 px-6 md:px-10">
+        <div className="w-full bg-(--blue) text-(--yellow) py-20 px-6 md:px-10">
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">Privacy Policy</h1>
