@@ -8,7 +8,7 @@ export default function Privacy(){
                 </div>
                 
                 <p className="text-base md:text-lg leading-relaxed mb-8">
-                    SCREEN VR STUDIOS LIMITED ("we," "us," or "our") is committed to protecting your privacy. This policy explains what information we collect when you play Marmo ("the Game"), how we use it, and the steps we take to keep it safe. By installing or using Marmo, you agree to the practices described below.
+                    SCREEN VR STUDIOS LTD ("we," "us," or "our") is committed to protecting your privacy. This policy explains what information we collect when you play Marmo ("the Game"), how we use it, and the steps we take to keep it safe. By installing or using Marmo, you agree to the practices described below.
                 </p>
 
                 <div className="space-y-8">
@@ -100,7 +100,7 @@ export default function Privacy(){
                     <section>
                         <h2 className="text-2xl font-bold mb-4">8. Contact Us / Delete User Data</h2>
                         <p className="mb-3">If you wish to delete any data stored related to your activity that we have collected, or if you have questions regarding this Privacy Policy, reach out to us:</p>
-                        <p className="font-semibold">SCREEN VR STUDIOS LIMITED</p>
+                        <p className="font-semibold">SCREEN VR STUDIOS LTD</p>
                         <p>Email: screenvrstudios@gmail.com</p>
                     </section>
                 </div>

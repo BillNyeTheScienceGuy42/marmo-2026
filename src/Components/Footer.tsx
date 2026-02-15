@@ -33,7 +33,7 @@ export default function Footer(){
             </div>
             
             <div className="py-6 text-center text-xs md:text-sm text-gray-400 px-4">
-                <p>© 2026 Marmo VR | ScreenVR Studios Limited. All rights reserved.</p>
+                <p>© 2026 Marmo VR | SCREEN VR STUDIOS LTD. All rights reserved.</p>
             </div>
         </footer>
     )
