@@ -4,7 +4,7 @@ import Spinner from '../Components/Spinner'
 export default function Discord(){
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://discord.gg/marmo'
+            window.location.href = 'https://discord.gg/T42WnFWuJR'
         }, 2000)
         return () => clearTimeout(timer)
     }, [])
